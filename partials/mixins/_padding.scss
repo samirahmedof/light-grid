@@ -1,0 +1,27 @@
+@mixin padding($count) {
+  @for $i from 1 through $count {
+    .pt-#{$i} {
+      padding-top: space($i) !important;
+    }
+    .pb-#{$i} {
+      padding-bottom: space($i) !important;
+    }
+    .pr-#{$i} {
+      padding-right: space($i) !important;
+    }
+    .pl-#{$i} {
+      padding-left: space($i) !important;
+    }
+    .px-#{$i} {
+      padding-left: space($i) !important;
+      padding-right: space($i) !important;
+    }
+    .py-#{$i} {
+      padding-top: space($i) !important;
+      padding-bottom: space($i) !important;
+    }
+    .p-#{$i} {
+      padding: space($i) !important;
+    }
+  }
+}

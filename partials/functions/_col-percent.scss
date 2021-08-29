@@ -1,0 +1,5 @@
+@function col-percent($num) {
+  $result: 100 * $num/ ($col-count);
+
+  @return $result * 1%;
+}

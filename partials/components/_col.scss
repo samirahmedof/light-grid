@@ -1,0 +1,19 @@
+@each $size in $sizes {
+  @for $i from 1 through $col-count {
+    .col#{$size}-#{$i} {
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+  }
+}
+@each $name, $width in $breakpoints {
+  @include breakpoint-min($width) {
+    @for $i from 1 through $col-count {
+      .col#{$name}-#{$i} {
+        flex: 0 0 col-percent($i);
+        max-width: col-percent($i);
+      }
+    }
+  }
+}
