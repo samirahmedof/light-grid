@@ -1,10 +1,12 @@
-@each $size in $sizes {
-  @for $i from 1 through $col-count {
-    .col#{$size}-#{$i} {
-      width: 100%;
-      padding-right: 15px;
-      padding-left: 15px;
-    }
+[class^="col-"] {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+@for $i from 1 through $col-count {
+  .col-#{$i} {
+    flex: 0 0 col-percent($i);
+    max-width: col-percent($i);
   }
 }
 @each $name, $width in $breakpoints {
