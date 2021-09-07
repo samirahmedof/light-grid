@@ -1,0 +1,23 @@
+{
+  "name": "light-grid",
+  "version": "1.0.0",
+  "description": "light css grid system",
+  "main": "index.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samirahmedof/grid.git"
+  },
+  "keywords": [
+    "grid",
+    "light"
+  ],
+  "author": "Samir Ahmadov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samirahmedof/grid/issues"
+  },
+  "homepage": "https://github.com/samirahmedof/grid#readme"
+}
