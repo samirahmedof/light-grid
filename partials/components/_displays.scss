@@ -1,0 +1,35 @@
+.d-block {
+  display: block !important;
+}
+.d-flex {
+  display: flex !important;
+}
+.d-none {
+  display: none !important;
+}
+.d-inline {
+  display: inline !important;
+}
+.d-inline-block {
+  display: inline-block !important;
+}
+
+@each $name, $width in $breakpoints {
+  @include breakpoint-min($width) {
+    .d#{$name}-block {
+      display: block !important;
+    }
+    .d#{$name}-flex {
+      display: flex !important;
+    }
+    .d#{$name}-none {
+      display: none !important;
+    }
+    .d#{$name}-inline {
+      display: inline !important;
+    }
+    .d#{$name}-inline-block {
+      display: inline-block !important;
+    }
+  }
+}
