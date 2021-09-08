@@ -1,6 +1,6 @@
 {
   "name": "light-grid",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "light css grid system",
   "main": "index.css",
   "scripts": {
