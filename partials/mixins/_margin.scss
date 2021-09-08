@@ -1,5 +1,5 @@
 @mixin margin($count) {
-  @for $i from 1 through $count {
+  @for $i from 0 through $count {
     .mt-#{$i} {
       margin-top: space($i) !important;
     }

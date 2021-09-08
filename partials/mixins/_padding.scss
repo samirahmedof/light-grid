@@ -1,5 +1,5 @@
 @mixin padding($count) {
-  @for $i from 1 through $count {
+  @for $i from 0 through $count {
     .pt-#{$i} {
       padding-top: space($i) !important;
     }

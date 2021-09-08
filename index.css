@@ -52,6 +52,36 @@ body {
   }
 }
 
+.pt-0 {
+  padding-top: 0rem !important;
+}
+
+.pb-0 {
+  padding-bottom: 0rem !important;
+}
+
+.pr-0 {
+  padding-right: 0rem !important;
+}
+
+.pl-0 {
+  padding-left: 0rem !important;
+}
+
+.px-0 {
+  padding-left: 0rem !important;
+  padding-right: 0rem !important;
+}
+
+.py-0 {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+
+.p-0 {
+  padding: 0rem !important;
+}
+
 .pt-1 {
   padding-top: 0.25rem !important;
 }
@@ -650,6 +680,36 @@ body {
 
 .p-20 {
   padding: 5rem !important;
+}
+
+.mt-0 {
+  margin-top: 0rem !important;
+}
+
+.mb-0 {
+  margin-bottom: 0rem !important;
+}
+
+.mr-0 {
+  margin-right: 0rem !important;
+}
+
+.ml-0 {
+  margin-left: 0rem !important;
+}
+
+.mx-0 {
+  margin-left: 0rem !important;
+  margin-right: 0rem !important;
+}
+
+.my-0 {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+}
+
+.m-0 {
+  margin: 0rem !important;
 }
 
 .mt-1 {
