@@ -95,10 +95,10 @@ light grid css
 ```
 
 ### Text align
-> align-{value}
+> text-{value}
 ```
-<div class="align-left"></div>
-<div class="align-center"></div>
-<div class="align-right"></div>
+<div class="text-left"></div>
+<div class="text-center"></div>
+<div class="text-right"></div>
 
 ```
