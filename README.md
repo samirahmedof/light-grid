@@ -80,3 +80,25 @@ light grid css
 <div class="wrap"></div>
 
 ```
+
+### Sizes
+> w-100
+```
+<div class="w-100"></div>
+
+```
+
+> h-100
+```
+<div class="h-100"></div>
+
+```
+
+### Text align
+> align-{value}
+```
+<div class="align-left"></div>
+<div class="align-center"></div>
+<div class="align-right"></div>
+
+```
