@@ -1,4 +1,4 @@
 @function space($num) {
-  $result: $num * 0.25rem;
+  $result: $num * 1px;
   @return $result;
 }
