@@ -1,0 +1,23 @@
+@use "../core/config" as cn;
+@use "../core/mixins" as br;
+@use "../core/variables" as vr;
+
+@each $name, $rules in vr.$flex_utilities {
+  .#{$name} {
+    @each $prop, $val in $rules {
+      #{$prop}: $val;
+    }
+  }
+
+  @each $bp, $width in cn.$breakpoints {
+    @if $bp != xs {
+      @include br.breakpoint($width, 'min') {
+        .#{$name}\@#{$bp} {
+          @each $prop, $val in $rules {
+            #{$prop}: $val;
+          }
+        }
+      }
+    }
+  }
+}

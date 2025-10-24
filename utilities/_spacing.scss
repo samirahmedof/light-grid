@@ -1,0 +1,44 @@
+@use "../core/config" as cn;
+@use "../core/mixins" as br;
+
+@each $size, $value in cn.$spacers {
+  // Base (xs)
+  .m-#{$size}   { margin: $value; }
+  .mt-#{$size}  { margin-top: $value; }
+  .mb-#{$size}  { margin-bottom: $value; }
+  .ms-#{$size}  { margin-inline-start: $value; }
+  .me-#{$size}  { margin-inline-end: $value; }
+  .mx-#{$size}  { margin-inline: $value; }
+  .my-#{$size}  { margin-block: $value; }
+
+  .p-#{$size}   { padding: $value; }
+  .pt-#{$size}  { padding-top: $value; }
+  .pb-#{$size}  { padding-bottom: $value; }
+  .ps-#{$size}  { padding-inline-start: $value; }
+  .pe-#{$size}  { padding-inline-end: $value; }
+  .px-#{$size}  { padding-inline: $value; }
+  .py-#{$size}  { padding-block: $value; }
+
+  // Responsive variants
+  @each $bp, $width in cn.$breakpoints {
+    @if $bp != xs {
+      @include br.breakpoint($width, 'min') {
+        .m-#{$size}\@#{$bp}   { margin: $value; }
+        .mt-#{$size}\@#{$bp}  { margin-top: $value; }
+        .mb-#{$size}\@#{$bp}  { margin-bottom: $value; }
+        .ms-#{$size}\@#{$bp}  { margin-inline-start: $value; }
+        .me-#{$size}\@#{$bp}  { margin-inline-end: $value; }
+        .mx-#{$size}\@#{$bp}  { margin-inline: $value; }
+        .my-#{$size}\@#{$bp}  { margin-block: $value; }
+
+        .p-#{$size}\@#{$bp}   { padding: $value; }
+        .pt-#{$size}\@#{$bp}  { padding-top: $value; }
+        .pb-#{$size}\@#{$bp}  { padding-bottom: $value; }
+        .ps-#{$size}\@#{$bp}  { padding-inline-start: $value; }
+        .pe-#{$size}\@#{$bp}  { padding-inline-end: $value; }
+        .px-#{$size}\@#{$bp}  { padding-inline: $value; }
+        .py-#{$size}\@#{$bp}  { padding-block: $value; }
+      }
+    }
+  }
+}

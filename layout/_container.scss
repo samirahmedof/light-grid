@@ -1,0 +1,26 @@
+@use "sass:map";
+@use "../core/config" as cn;
+@use "../core/mixins" as br;
+
+.container-fluid {
+  width: 100%;
+  margin-inline: auto;
+  padding-inline: 1rem;
+  display: block;
+}
+
+.container {
+  width: 100%;
+  margin-inline: auto;
+  padding-inline: 1rem;
+  display: block;
+  @each $name, $width in cn.$breakpoints {
+    @include br.breakpoint($width, 'min') {
+      @if map.has-key(cn.$container_max_widths, $name) {
+        max-width: map.get(cn.$container_max_widths, $name);
+      }
+    }
+  }
+}
+
+

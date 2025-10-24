@@ -1,0 +1,26 @@
+@use "../core/config" as cn;
+@use "../core/mixins" as br;
+
+[class^="col-"] {
+  min-width: 0;
+}
+
+@each $bp, $width in cn.$breakpoints {
+  @if $bp == xs {
+    @for $i from 1 through cn.$grid_columns_count {
+      .col-#{$i} {
+        grid-column: span $i;
+      }
+    }
+  } @else {
+    @include br.breakpoint($width, 'min') {
+      @for $i from 1 through cn.$grid_columns_count {
+        .col-#{$i}\@#{$bp} {
+          grid-column: span $i;
+        }
+      }
+    }
+  }
+}
+
+

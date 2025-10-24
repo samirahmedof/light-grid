@@ -1,4 +1,18 @@
-@import "./partials/abstract/index";
-@import "./partials/functions/index";
-@import "./partials/mixins/index";
-@import "./partials/components/index";
+// Core imports
+@use "core/config";
+@use "core/functions";
+@use "core/mixins";
+@use "core/variables";
+
+// Layout (grid system)
+@use "layout/container";
+@use "layout/row";
+@use "layout/col";
+@use "layout/grid";
+
+// Utilities
+@use "utilities/spacing";
+@use "utilities/display";
+@use "utilities/flex";
+@use "utilities/text";
+@use "utilities/helpers";

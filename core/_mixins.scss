@@ -1,0 +1,5 @@
+@mixin breakpoint($breakpoint, $direction: "max") {
+  @media screen and (#{$direction}-width: $breakpoint) {
+    @content;
+  }
+}
