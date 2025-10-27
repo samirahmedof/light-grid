@@ -1,16 +1,15 @@
 @use "../core/config" as cn;
 @use "../core/mixins" as br;
-@use "../core/variables" as vr;
 
 
 
-@each $d in vr.$display_options {
+@each $d in cn.$display_options {
   .d-#{$d} { display: $d; }
 
   @each $bp, $width in cn.$breakpoints {
     @if $bp != xs {
-      @include br.breakpoint($width, 'min') {
-        .d-#{$d}\@#{$bp} { display: $d; }
+      @include br.breakpoint($width) {
+        .d-#{$bp}-#{$d} { display: $d; }
       }
     }
   }

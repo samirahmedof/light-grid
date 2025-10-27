@@ -1,6 +1,24 @@
-.text-start   { text-align: start; }
-.text-center  { text-align: center; }
-.text-end     { text-align: end; }
-.text-uppercase { text-transform: uppercase; }
-.text-lowercase { text-transform: lowercase; }
-.text-capitalize { text-transform: capitalize; }
+@use "../core/config" as cn;
+@use "../core/mixins" as br;
+
+@each $name, $rules in cn.$text-utilities {
+  .#{$name} {
+    @each $prop, $val in $rules {
+      #{$prop}: $val;
+    }
+  }
+}
+
+@each $bp, $width in cn.$breakpoints {
+  @if $bp != xs {
+    @include br.breakpoint($width) {
+      @each $name, $rules in cn.$text-utilities {
+        .#{$name}-#{$bp} {
+          @each $prop, $val in $rules {
+            #{$prop}: $val;
+          }
+        }
+      }
+    }
+  }
+}

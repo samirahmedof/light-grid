@@ -2,42 +2,40 @@
 @use "../core/mixins" as br;
 
 @each $size, $value in cn.$spacers {
-  // Base (xs)
   .m-#{$size}   { margin: $value; }
   .mt-#{$size}  { margin-top: $value; }
   .mb-#{$size}  { margin-bottom: $value; }
-  .ms-#{$size}  { margin-inline-start: $value; }
-  .me-#{$size}  { margin-inline-end: $value; }
+  .ml-#{$size}  { margin-left: $value; }
+  .mr-#{$size}  { margin-right: $value; }
   .mx-#{$size}  { margin-inline: $value; }
   .my-#{$size}  { margin-block: $value; }
 
   .p-#{$size}   { padding: $value; }
   .pt-#{$size}  { padding-top: $value; }
   .pb-#{$size}  { padding-bottom: $value; }
-  .ps-#{$size}  { padding-inline-start: $value; }
-  .pe-#{$size}  { padding-inline-end: $value; }
+  .pl-#{$size}  { padding-left: $value; }
+  .pr-#{$size}  { padding-right: $value; }
   .px-#{$size}  { padding-inline: $value; }
   .py-#{$size}  { padding-block: $value; }
 
-  // Responsive variants
   @each $bp, $width in cn.$breakpoints {
     @if $bp != xs {
-      @include br.breakpoint($width, 'min') {
-        .m-#{$size}\@#{$bp}   { margin: $value; }
-        .mt-#{$size}\@#{$bp}  { margin-top: $value; }
-        .mb-#{$size}\@#{$bp}  { margin-bottom: $value; }
-        .ms-#{$size}\@#{$bp}  { margin-inline-start: $value; }
-        .me-#{$size}\@#{$bp}  { margin-inline-end: $value; }
-        .mx-#{$size}\@#{$bp}  { margin-inline: $value; }
-        .my-#{$size}\@#{$bp}  { margin-block: $value; }
+      @include br.breakpoint($width) {
+        .m-#{$bp}-#{$size}   { margin: $value; }
+        .mt-#{$bp}-#{$size}  { margin-top: $value; }
+        .mb-#{$bp}-#{$size}  { margin-bottom: $value; }
+        .ml-#{$bp}-#{$size}  { margin-left: $value; }
+        .mr-#{$bp}-#{$size}  { margin-right: $value; }
+        .mx-#{$bp}-#{$size}  { margin-inline: $value; }
+        .my-#{$bp}-#{$size}  { margin-block: $value; }
 
-        .p-#{$size}\@#{$bp}   { padding: $value; }
-        .pt-#{$size}\@#{$bp}  { padding-top: $value; }
-        .pb-#{$size}\@#{$bp}  { padding-bottom: $value; }
-        .ps-#{$size}\@#{$bp}  { padding-inline-start: $value; }
-        .pe-#{$size}\@#{$bp}  { padding-inline-end: $value; }
-        .px-#{$size}\@#{$bp}  { padding-inline: $value; }
-        .py-#{$size}\@#{$bp}  { padding-block: $value; }
+        .p-#{$bp}-#{$size}   { padding: $value; }
+        .pt-#{$bp}-#{$size}  { padding-top: $value; }
+        .pb-#{$bp}-#{$size}  { padding-bottom: $value; }
+        .pl-#{$bp}-#{$size}  { padding-left: $value; }
+        .pr-#{$bp}-#{$size}  { padding-right: $value; }
+        .px-#{$bp}-#{$size}  { padding-inline: $value; }
+        .py-#{$bp}-#{$size}  { padding-block: $value; }
       }
     }
   }

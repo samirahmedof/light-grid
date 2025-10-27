@@ -13,9 +13,9 @@
       }
     }
   } @else {
-    @include br.breakpoint($width, 'min') {
+    @include br.breakpoint($width) {
       @for $i from 1 through cn.$grid_columns_count {
-        .col-#{$i}\@#{$bp} {
+        .col-#{$bp}-#{$i} {
           grid-column: span $i;
         }
       }

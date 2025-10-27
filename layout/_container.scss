@@ -15,7 +15,7 @@
   padding-inline: 1rem;
   display: block;
   @each $name, $width in cn.$breakpoints {
-    @include br.breakpoint($width, 'min') {
+    @include br.breakpoint($width) {
       @if map.has-key(cn.$container_max_widths, $name) {
         max-width: map.get(cn.$container_max_widths, $name);
       }

@@ -98,154 +98,154 @@
 }
 
 @media screen and (min-width: 576px) {
-  .col-1\@sm {
+  .col-sm-1 {
     grid-column: span 1;
   }
-  .col-2\@sm {
+  .col-sm-2 {
     grid-column: span 2;
   }
-  .col-3\@sm {
+  .col-sm-3 {
     grid-column: span 3;
   }
-  .col-4\@sm {
+  .col-sm-4 {
     grid-column: span 4;
   }
-  .col-5\@sm {
+  .col-sm-5 {
     grid-column: span 5;
   }
-  .col-6\@sm {
+  .col-sm-6 {
     grid-column: span 6;
   }
-  .col-7\@sm {
+  .col-sm-7 {
     grid-column: span 7;
   }
-  .col-8\@sm {
+  .col-sm-8 {
     grid-column: span 8;
   }
-  .col-9\@sm {
+  .col-sm-9 {
     grid-column: span 9;
   }
-  .col-10\@sm {
+  .col-sm-10 {
     grid-column: span 10;
   }
-  .col-11\@sm {
+  .col-sm-11 {
     grid-column: span 11;
   }
-  .col-12\@sm {
+  .col-sm-12 {
     grid-column: span 12;
   }
 }
 @media screen and (min-width: 768px) {
-  .col-1\@md {
+  .col-md-1 {
     grid-column: span 1;
   }
-  .col-2\@md {
+  .col-md-2 {
     grid-column: span 2;
   }
-  .col-3\@md {
+  .col-md-3 {
     grid-column: span 3;
   }
-  .col-4\@md {
+  .col-md-4 {
     grid-column: span 4;
   }
-  .col-5\@md {
+  .col-md-5 {
     grid-column: span 5;
   }
-  .col-6\@md {
+  .col-md-6 {
     grid-column: span 6;
   }
-  .col-7\@md {
+  .col-md-7 {
     grid-column: span 7;
   }
-  .col-8\@md {
+  .col-md-8 {
     grid-column: span 8;
   }
-  .col-9\@md {
+  .col-md-9 {
     grid-column: span 9;
   }
-  .col-10\@md {
+  .col-md-10 {
     grid-column: span 10;
   }
-  .col-11\@md {
+  .col-md-11 {
     grid-column: span 11;
   }
-  .col-12\@md {
+  .col-md-12 {
     grid-column: span 12;
   }
 }
 @media screen and (min-width: 992px) {
-  .col-1\@lg {
+  .col-lg-1 {
     grid-column: span 1;
   }
-  .col-2\@lg {
+  .col-lg-2 {
     grid-column: span 2;
   }
-  .col-3\@lg {
+  .col-lg-3 {
     grid-column: span 3;
   }
-  .col-4\@lg {
+  .col-lg-4 {
     grid-column: span 4;
   }
-  .col-5\@lg {
+  .col-lg-5 {
     grid-column: span 5;
   }
-  .col-6\@lg {
+  .col-lg-6 {
     grid-column: span 6;
   }
-  .col-7\@lg {
+  .col-lg-7 {
     grid-column: span 7;
   }
-  .col-8\@lg {
+  .col-lg-8 {
     grid-column: span 8;
   }
-  .col-9\@lg {
+  .col-lg-9 {
     grid-column: span 9;
   }
-  .col-10\@lg {
+  .col-lg-10 {
     grid-column: span 10;
   }
-  .col-11\@lg {
+  .col-lg-11 {
     grid-column: span 11;
   }
-  .col-12\@lg {
+  .col-lg-12 {
     grid-column: span 12;
   }
 }
 @media screen and (min-width: 1200px) {
-  .col-1\@xl {
+  .col-xl-1 {
     grid-column: span 1;
   }
-  .col-2\@xl {
+  .col-xl-2 {
     grid-column: span 2;
   }
-  .col-3\@xl {
+  .col-xl-3 {
     grid-column: span 3;
   }
-  .col-4\@xl {
+  .col-xl-4 {
     grid-column: span 4;
   }
-  .col-5\@xl {
+  .col-xl-5 {
     grid-column: span 5;
   }
-  .col-6\@xl {
+  .col-xl-6 {
     grid-column: span 6;
   }
-  .col-7\@xl {
+  .col-xl-7 {
     grid-column: span 7;
   }
-  .col-8\@xl {
+  .col-xl-8 {
     grid-column: span 8;
   }
-  .col-9\@xl {
+  .col-xl-9 {
     grid-column: span 9;
   }
-  .col-10\@xl {
+  .col-xl-10 {
     grid-column: span 10;
   }
-  .col-11\@xl {
+  .col-xl-11 {
     grid-column: span 11;
   }
-  .col-12\@xl {
+  .col-xl-12 {
     grid-column: span 12;
   }
 }
@@ -261,12 +261,12 @@
   margin-bottom: 0;
 }
 
-.ms-0 {
-  margin-inline-start: 0;
+.ml-0 {
+  margin-left: 0;
 }
 
-.me-0 {
-  margin-inline-end: 0;
+.mr-0 {
+  margin-right: 0;
 }
 
 .mx-0 {
@@ -289,12 +289,12 @@
   padding-bottom: 0;
 }
 
-.ps-0 {
-  padding-inline-start: 0;
+.pl-0 {
+  padding-left: 0;
 }
 
-.pe-0 {
-  padding-inline-end: 0;
+.pr-0 {
+  padding-right: 0;
 }
 
 .px-0 {
@@ -306,178 +306,178 @@
 }
 
 @media screen and (min-width: 576px) {
-  .m-0\@sm {
+  .m-sm-0 {
     margin: 0;
   }
-  .mt-0\@sm {
+  .mt-sm-0 {
     margin-top: 0;
   }
-  .mb-0\@sm {
+  .mb-sm-0 {
     margin-bottom: 0;
   }
-  .ms-0\@sm {
-    margin-inline-start: 0;
+  .ml-sm-0 {
+    margin-left: 0;
   }
-  .me-0\@sm {
-    margin-inline-end: 0;
+  .mr-sm-0 {
+    margin-right: 0;
   }
-  .mx-0\@sm {
+  .mx-sm-0 {
     margin-inline: 0;
   }
-  .my-0\@sm {
+  .my-sm-0 {
     margin-block: 0;
   }
-  .p-0\@sm {
+  .p-sm-0 {
     padding: 0;
   }
-  .pt-0\@sm {
+  .pt-sm-0 {
     padding-top: 0;
   }
-  .pb-0\@sm {
+  .pb-sm-0 {
     padding-bottom: 0;
   }
-  .ps-0\@sm {
-    padding-inline-start: 0;
+  .pl-sm-0 {
+    padding-left: 0;
   }
-  .pe-0\@sm {
-    padding-inline-end: 0;
+  .pr-sm-0 {
+    padding-right: 0;
   }
-  .px-0\@sm {
+  .px-sm-0 {
     padding-inline: 0;
   }
-  .py-0\@sm {
+  .py-sm-0 {
     padding-block: 0;
   }
 }
 @media screen and (min-width: 768px) {
-  .m-0\@md {
+  .m-md-0 {
     margin: 0;
   }
-  .mt-0\@md {
+  .mt-md-0 {
     margin-top: 0;
   }
-  .mb-0\@md {
+  .mb-md-0 {
     margin-bottom: 0;
   }
-  .ms-0\@md {
-    margin-inline-start: 0;
+  .ml-md-0 {
+    margin-left: 0;
   }
-  .me-0\@md {
-    margin-inline-end: 0;
+  .mr-md-0 {
+    margin-right: 0;
   }
-  .mx-0\@md {
+  .mx-md-0 {
     margin-inline: 0;
   }
-  .my-0\@md {
+  .my-md-0 {
     margin-block: 0;
   }
-  .p-0\@md {
+  .p-md-0 {
     padding: 0;
   }
-  .pt-0\@md {
+  .pt-md-0 {
     padding-top: 0;
   }
-  .pb-0\@md {
+  .pb-md-0 {
     padding-bottom: 0;
   }
-  .ps-0\@md {
-    padding-inline-start: 0;
+  .pl-md-0 {
+    padding-left: 0;
   }
-  .pe-0\@md {
-    padding-inline-end: 0;
+  .pr-md-0 {
+    padding-right: 0;
   }
-  .px-0\@md {
+  .px-md-0 {
     padding-inline: 0;
   }
-  .py-0\@md {
+  .py-md-0 {
     padding-block: 0;
   }
 }
 @media screen and (min-width: 992px) {
-  .m-0\@lg {
+  .m-lg-0 {
     margin: 0;
   }
-  .mt-0\@lg {
+  .mt-lg-0 {
     margin-top: 0;
   }
-  .mb-0\@lg {
+  .mb-lg-0 {
     margin-bottom: 0;
   }
-  .ms-0\@lg {
-    margin-inline-start: 0;
+  .ml-lg-0 {
+    margin-left: 0;
   }
-  .me-0\@lg {
-    margin-inline-end: 0;
+  .mr-lg-0 {
+    margin-right: 0;
   }
-  .mx-0\@lg {
+  .mx-lg-0 {
     margin-inline: 0;
   }
-  .my-0\@lg {
+  .my-lg-0 {
     margin-block: 0;
   }
-  .p-0\@lg {
+  .p-lg-0 {
     padding: 0;
   }
-  .pt-0\@lg {
+  .pt-lg-0 {
     padding-top: 0;
   }
-  .pb-0\@lg {
+  .pb-lg-0 {
     padding-bottom: 0;
   }
-  .ps-0\@lg {
-    padding-inline-start: 0;
+  .pl-lg-0 {
+    padding-left: 0;
   }
-  .pe-0\@lg {
-    padding-inline-end: 0;
+  .pr-lg-0 {
+    padding-right: 0;
   }
-  .px-0\@lg {
+  .px-lg-0 {
     padding-inline: 0;
   }
-  .py-0\@lg {
+  .py-lg-0 {
     padding-block: 0;
   }
 }
 @media screen and (min-width: 1200px) {
-  .m-0\@xl {
+  .m-xl-0 {
     margin: 0;
   }
-  .mt-0\@xl {
+  .mt-xl-0 {
     margin-top: 0;
   }
-  .mb-0\@xl {
+  .mb-xl-0 {
     margin-bottom: 0;
   }
-  .ms-0\@xl {
-    margin-inline-start: 0;
+  .ml-xl-0 {
+    margin-left: 0;
   }
-  .me-0\@xl {
-    margin-inline-end: 0;
+  .mr-xl-0 {
+    margin-right: 0;
   }
-  .mx-0\@xl {
+  .mx-xl-0 {
     margin-inline: 0;
   }
-  .my-0\@xl {
+  .my-xl-0 {
     margin-block: 0;
   }
-  .p-0\@xl {
+  .p-xl-0 {
     padding: 0;
   }
-  .pt-0\@xl {
+  .pt-xl-0 {
     padding-top: 0;
   }
-  .pb-0\@xl {
+  .pb-xl-0 {
     padding-bottom: 0;
   }
-  .ps-0\@xl {
-    padding-inline-start: 0;
+  .pl-xl-0 {
+    padding-left: 0;
   }
-  .pe-0\@xl {
-    padding-inline-end: 0;
+  .pr-xl-0 {
+    padding-right: 0;
   }
-  .px-0\@xl {
+  .px-xl-0 {
     padding-inline: 0;
   }
-  .py-0\@xl {
+  .py-xl-0 {
     padding-block: 0;
   }
 }
@@ -493,12 +493,12 @@
   margin-bottom: 0.25rem;
 }
 
-.ms-1 {
-  margin-inline-start: 0.25rem;
+.ml-1 {
+  margin-left: 0.25rem;
 }
 
-.me-1 {
-  margin-inline-end: 0.25rem;
+.mr-1 {
+  margin-right: 0.25rem;
 }
 
 .mx-1 {
@@ -521,12 +521,12 @@
   padding-bottom: 0.25rem;
 }
 
-.ps-1 {
-  padding-inline-start: 0.25rem;
+.pl-1 {
+  padding-left: 0.25rem;
 }
 
-.pe-1 {
-  padding-inline-end: 0.25rem;
+.pr-1 {
+  padding-right: 0.25rem;
 }
 
 .px-1 {
@@ -538,178 +538,178 @@
 }
 
 @media screen and (min-width: 576px) {
-  .m-1\@sm {
+  .m-sm-1 {
     margin: 0.25rem;
   }
-  .mt-1\@sm {
+  .mt-sm-1 {
     margin-top: 0.25rem;
   }
-  .mb-1\@sm {
+  .mb-sm-1 {
     margin-bottom: 0.25rem;
   }
-  .ms-1\@sm {
-    margin-inline-start: 0.25rem;
+  .ml-sm-1 {
+    margin-left: 0.25rem;
   }
-  .me-1\@sm {
-    margin-inline-end: 0.25rem;
+  .mr-sm-1 {
+    margin-right: 0.25rem;
   }
-  .mx-1\@sm {
+  .mx-sm-1 {
     margin-inline: 0.25rem;
   }
-  .my-1\@sm {
+  .my-sm-1 {
     margin-block: 0.25rem;
   }
-  .p-1\@sm {
+  .p-sm-1 {
     padding: 0.25rem;
   }
-  .pt-1\@sm {
+  .pt-sm-1 {
     padding-top: 0.25rem;
   }
-  .pb-1\@sm {
+  .pb-sm-1 {
     padding-bottom: 0.25rem;
   }
-  .ps-1\@sm {
-    padding-inline-start: 0.25rem;
+  .pl-sm-1 {
+    padding-left: 0.25rem;
   }
-  .pe-1\@sm {
-    padding-inline-end: 0.25rem;
+  .pr-sm-1 {
+    padding-right: 0.25rem;
   }
-  .px-1\@sm {
+  .px-sm-1 {
     padding-inline: 0.25rem;
   }
-  .py-1\@sm {
+  .py-sm-1 {
     padding-block: 0.25rem;
   }
 }
 @media screen and (min-width: 768px) {
-  .m-1\@md {
+  .m-md-1 {
     margin: 0.25rem;
   }
-  .mt-1\@md {
+  .mt-md-1 {
     margin-top: 0.25rem;
   }
-  .mb-1\@md {
+  .mb-md-1 {
     margin-bottom: 0.25rem;
   }
-  .ms-1\@md {
-    margin-inline-start: 0.25rem;
+  .ml-md-1 {
+    margin-left: 0.25rem;
   }
-  .me-1\@md {
-    margin-inline-end: 0.25rem;
+  .mr-md-1 {
+    margin-right: 0.25rem;
   }
-  .mx-1\@md {
+  .mx-md-1 {
     margin-inline: 0.25rem;
   }
-  .my-1\@md {
+  .my-md-1 {
     margin-block: 0.25rem;
   }
-  .p-1\@md {
+  .p-md-1 {
     padding: 0.25rem;
   }
-  .pt-1\@md {
+  .pt-md-1 {
     padding-top: 0.25rem;
   }
-  .pb-1\@md {
+  .pb-md-1 {
     padding-bottom: 0.25rem;
   }
-  .ps-1\@md {
-    padding-inline-start: 0.25rem;
+  .pl-md-1 {
+    padding-left: 0.25rem;
   }
-  .pe-1\@md {
-    padding-inline-end: 0.25rem;
+  .pr-md-1 {
+    padding-right: 0.25rem;
   }
-  .px-1\@md {
+  .px-md-1 {
     padding-inline: 0.25rem;
   }
-  .py-1\@md {
+  .py-md-1 {
     padding-block: 0.25rem;
   }
 }
 @media screen and (min-width: 992px) {
-  .m-1\@lg {
+  .m-lg-1 {
     margin: 0.25rem;
   }
-  .mt-1\@lg {
+  .mt-lg-1 {
     margin-top: 0.25rem;
   }
-  .mb-1\@lg {
+  .mb-lg-1 {
     margin-bottom: 0.25rem;
   }
-  .ms-1\@lg {
-    margin-inline-start: 0.25rem;
+  .ml-lg-1 {
+    margin-left: 0.25rem;
   }
-  .me-1\@lg {
-    margin-inline-end: 0.25rem;
+  .mr-lg-1 {
+    margin-right: 0.25rem;
   }
-  .mx-1\@lg {
+  .mx-lg-1 {
     margin-inline: 0.25rem;
   }
-  .my-1\@lg {
+  .my-lg-1 {
     margin-block: 0.25rem;
   }
-  .p-1\@lg {
+  .p-lg-1 {
     padding: 0.25rem;
   }
-  .pt-1\@lg {
+  .pt-lg-1 {
     padding-top: 0.25rem;
   }
-  .pb-1\@lg {
+  .pb-lg-1 {
     padding-bottom: 0.25rem;
   }
-  .ps-1\@lg {
-    padding-inline-start: 0.25rem;
+  .pl-lg-1 {
+    padding-left: 0.25rem;
   }
-  .pe-1\@lg {
-    padding-inline-end: 0.25rem;
+  .pr-lg-1 {
+    padding-right: 0.25rem;
   }
-  .px-1\@lg {
+  .px-lg-1 {
     padding-inline: 0.25rem;
   }
-  .py-1\@lg {
+  .py-lg-1 {
     padding-block: 0.25rem;
   }
 }
 @media screen and (min-width: 1200px) {
-  .m-1\@xl {
+  .m-xl-1 {
     margin: 0.25rem;
   }
-  .mt-1\@xl {
+  .mt-xl-1 {
     margin-top: 0.25rem;
   }
-  .mb-1\@xl {
+  .mb-xl-1 {
     margin-bottom: 0.25rem;
   }
-  .ms-1\@xl {
-    margin-inline-start: 0.25rem;
+  .ml-xl-1 {
+    margin-left: 0.25rem;
   }
-  .me-1\@xl {
-    margin-inline-end: 0.25rem;
+  .mr-xl-1 {
+    margin-right: 0.25rem;
   }
-  .mx-1\@xl {
+  .mx-xl-1 {
     margin-inline: 0.25rem;
   }
-  .my-1\@xl {
+  .my-xl-1 {
     margin-block: 0.25rem;
   }
-  .p-1\@xl {
+  .p-xl-1 {
     padding: 0.25rem;
   }
-  .pt-1\@xl {
+  .pt-xl-1 {
     padding-top: 0.25rem;
   }
-  .pb-1\@xl {
+  .pb-xl-1 {
     padding-bottom: 0.25rem;
   }
-  .ps-1\@xl {
-    padding-inline-start: 0.25rem;
+  .pl-xl-1 {
+    padding-left: 0.25rem;
   }
-  .pe-1\@xl {
-    padding-inline-end: 0.25rem;
+  .pr-xl-1 {
+    padding-right: 0.25rem;
   }
-  .px-1\@xl {
+  .px-xl-1 {
     padding-inline: 0.25rem;
   }
-  .py-1\@xl {
+  .py-xl-1 {
     padding-block: 0.25rem;
   }
 }
@@ -725,12 +725,12 @@
   margin-bottom: 0.5rem;
 }
 
-.ms-2 {
-  margin-inline-start: 0.5rem;
+.ml-2 {
+  margin-left: 0.5rem;
 }
 
-.me-2 {
-  margin-inline-end: 0.5rem;
+.mr-2 {
+  margin-right: 0.5rem;
 }
 
 .mx-2 {
@@ -753,12 +753,12 @@
   padding-bottom: 0.5rem;
 }
 
-.ps-2 {
-  padding-inline-start: 0.5rem;
+.pl-2 {
+  padding-left: 0.5rem;
 }
 
-.pe-2 {
-  padding-inline-end: 0.5rem;
+.pr-2 {
+  padding-right: 0.5rem;
 }
 
 .px-2 {
@@ -770,178 +770,178 @@
 }
 
 @media screen and (min-width: 576px) {
-  .m-2\@sm {
+  .m-sm-2 {
     margin: 0.5rem;
   }
-  .mt-2\@sm {
+  .mt-sm-2 {
     margin-top: 0.5rem;
   }
-  .mb-2\@sm {
+  .mb-sm-2 {
     margin-bottom: 0.5rem;
   }
-  .ms-2\@sm {
-    margin-inline-start: 0.5rem;
+  .ml-sm-2 {
+    margin-left: 0.5rem;
   }
-  .me-2\@sm {
-    margin-inline-end: 0.5rem;
+  .mr-sm-2 {
+    margin-right: 0.5rem;
   }
-  .mx-2\@sm {
+  .mx-sm-2 {
     margin-inline: 0.5rem;
   }
-  .my-2\@sm {
+  .my-sm-2 {
     margin-block: 0.5rem;
   }
-  .p-2\@sm {
+  .p-sm-2 {
     padding: 0.5rem;
   }
-  .pt-2\@sm {
+  .pt-sm-2 {
     padding-top: 0.5rem;
   }
-  .pb-2\@sm {
+  .pb-sm-2 {
     padding-bottom: 0.5rem;
   }
-  .ps-2\@sm {
-    padding-inline-start: 0.5rem;
+  .pl-sm-2 {
+    padding-left: 0.5rem;
   }
-  .pe-2\@sm {
-    padding-inline-end: 0.5rem;
+  .pr-sm-2 {
+    padding-right: 0.5rem;
   }
-  .px-2\@sm {
+  .px-sm-2 {
     padding-inline: 0.5rem;
   }
-  .py-2\@sm {
+  .py-sm-2 {
     padding-block: 0.5rem;
   }
 }
 @media screen and (min-width: 768px) {
-  .m-2\@md {
+  .m-md-2 {
     margin: 0.5rem;
   }
-  .mt-2\@md {
+  .mt-md-2 {
     margin-top: 0.5rem;
   }
-  .mb-2\@md {
+  .mb-md-2 {
     margin-bottom: 0.5rem;
   }
-  .ms-2\@md {
-    margin-inline-start: 0.5rem;
+  .ml-md-2 {
+    margin-left: 0.5rem;
   }
-  .me-2\@md {
-    margin-inline-end: 0.5rem;
+  .mr-md-2 {
+    margin-right: 0.5rem;
   }
-  .mx-2\@md {
+  .mx-md-2 {
     margin-inline: 0.5rem;
   }
-  .my-2\@md {
+  .my-md-2 {
     margin-block: 0.5rem;
   }
-  .p-2\@md {
+  .p-md-2 {
     padding: 0.5rem;
   }
-  .pt-2\@md {
+  .pt-md-2 {
     padding-top: 0.5rem;
   }
-  .pb-2\@md {
+  .pb-md-2 {
     padding-bottom: 0.5rem;
   }
-  .ps-2\@md {
-    padding-inline-start: 0.5rem;
+  .pl-md-2 {
+    padding-left: 0.5rem;
   }
-  .pe-2\@md {
-    padding-inline-end: 0.5rem;
+  .pr-md-2 {
+    padding-right: 0.5rem;
   }
-  .px-2\@md {
+  .px-md-2 {
     padding-inline: 0.5rem;
   }
-  .py-2\@md {
+  .py-md-2 {
     padding-block: 0.5rem;
   }
 }
 @media screen and (min-width: 992px) {
-  .m-2\@lg {
+  .m-lg-2 {
     margin: 0.5rem;
   }
-  .mt-2\@lg {
+  .mt-lg-2 {
     margin-top: 0.5rem;
   }
-  .mb-2\@lg {
+  .mb-lg-2 {
     margin-bottom: 0.5rem;
   }
-  .ms-2\@lg {
-    margin-inline-start: 0.5rem;
+  .ml-lg-2 {
+    margin-left: 0.5rem;
   }
-  .me-2\@lg {
-    margin-inline-end: 0.5rem;
+  .mr-lg-2 {
+    margin-right: 0.5rem;
   }
-  .mx-2\@lg {
+  .mx-lg-2 {
     margin-inline: 0.5rem;
   }
-  .my-2\@lg {
+  .my-lg-2 {
     margin-block: 0.5rem;
   }
-  .p-2\@lg {
+  .p-lg-2 {
     padding: 0.5rem;
   }
-  .pt-2\@lg {
+  .pt-lg-2 {
     padding-top: 0.5rem;
   }
-  .pb-2\@lg {
+  .pb-lg-2 {
     padding-bottom: 0.5rem;
   }
-  .ps-2\@lg {
-    padding-inline-start: 0.5rem;
+  .pl-lg-2 {
+    padding-left: 0.5rem;
   }
-  .pe-2\@lg {
-    padding-inline-end: 0.5rem;
+  .pr-lg-2 {
+    padding-right: 0.5rem;
   }
-  .px-2\@lg {
+  .px-lg-2 {
     padding-inline: 0.5rem;
   }
-  .py-2\@lg {
+  .py-lg-2 {
     padding-block: 0.5rem;
   }
 }
 @media screen and (min-width: 1200px) {
-  .m-2\@xl {
+  .m-xl-2 {
     margin: 0.5rem;
   }
-  .mt-2\@xl {
+  .mt-xl-2 {
     margin-top: 0.5rem;
   }
-  .mb-2\@xl {
+  .mb-xl-2 {
     margin-bottom: 0.5rem;
   }
-  .ms-2\@xl {
-    margin-inline-start: 0.5rem;
+  .ml-xl-2 {
+    margin-left: 0.5rem;
   }
-  .me-2\@xl {
-    margin-inline-end: 0.5rem;
+  .mr-xl-2 {
+    margin-right: 0.5rem;
   }
-  .mx-2\@xl {
+  .mx-xl-2 {
     margin-inline: 0.5rem;
   }
-  .my-2\@xl {
+  .my-xl-2 {
     margin-block: 0.5rem;
   }
-  .p-2\@xl {
+  .p-xl-2 {
     padding: 0.5rem;
   }
-  .pt-2\@xl {
+  .pt-xl-2 {
     padding-top: 0.5rem;
   }
-  .pb-2\@xl {
+  .pb-xl-2 {
     padding-bottom: 0.5rem;
   }
-  .ps-2\@xl {
-    padding-inline-start: 0.5rem;
+  .pl-xl-2 {
+    padding-left: 0.5rem;
   }
-  .pe-2\@xl {
-    padding-inline-end: 0.5rem;
+  .pr-xl-2 {
+    padding-right: 0.5rem;
   }
-  .px-2\@xl {
+  .px-xl-2 {
     padding-inline: 0.5rem;
   }
-  .py-2\@xl {
+  .py-xl-2 {
     padding-block: 0.5rem;
   }
 }
@@ -957,12 +957,12 @@
   margin-bottom: 1rem;
 }
 
-.ms-3 {
-  margin-inline-start: 1rem;
+.ml-3 {
+  margin-left: 1rem;
 }
 
-.me-3 {
-  margin-inline-end: 1rem;
+.mr-3 {
+  margin-right: 1rem;
 }
 
 .mx-3 {
@@ -985,12 +985,12 @@
   padding-bottom: 1rem;
 }
 
-.ps-3 {
-  padding-inline-start: 1rem;
+.pl-3 {
+  padding-left: 1rem;
 }
 
-.pe-3 {
-  padding-inline-end: 1rem;
+.pr-3 {
+  padding-right: 1rem;
 }
 
 .px-3 {
@@ -1002,178 +1002,178 @@
 }
 
 @media screen and (min-width: 576px) {
-  .m-3\@sm {
+  .m-sm-3 {
     margin: 1rem;
   }
-  .mt-3\@sm {
+  .mt-sm-3 {
     margin-top: 1rem;
   }
-  .mb-3\@sm {
+  .mb-sm-3 {
     margin-bottom: 1rem;
   }
-  .ms-3\@sm {
-    margin-inline-start: 1rem;
+  .ml-sm-3 {
+    margin-left: 1rem;
   }
-  .me-3\@sm {
-    margin-inline-end: 1rem;
+  .mr-sm-3 {
+    margin-right: 1rem;
   }
-  .mx-3\@sm {
+  .mx-sm-3 {
     margin-inline: 1rem;
   }
-  .my-3\@sm {
+  .my-sm-3 {
     margin-block: 1rem;
   }
-  .p-3\@sm {
+  .p-sm-3 {
     padding: 1rem;
   }
-  .pt-3\@sm {
+  .pt-sm-3 {
     padding-top: 1rem;
   }
-  .pb-3\@sm {
+  .pb-sm-3 {
     padding-bottom: 1rem;
   }
-  .ps-3\@sm {
-    padding-inline-start: 1rem;
+  .pl-sm-3 {
+    padding-left: 1rem;
   }
-  .pe-3\@sm {
-    padding-inline-end: 1rem;
+  .pr-sm-3 {
+    padding-right: 1rem;
   }
-  .px-3\@sm {
+  .px-sm-3 {
     padding-inline: 1rem;
   }
-  .py-3\@sm {
+  .py-sm-3 {
     padding-block: 1rem;
   }
 }
 @media screen and (min-width: 768px) {
-  .m-3\@md {
+  .m-md-3 {
     margin: 1rem;
   }
-  .mt-3\@md {
+  .mt-md-3 {
     margin-top: 1rem;
   }
-  .mb-3\@md {
+  .mb-md-3 {
     margin-bottom: 1rem;
   }
-  .ms-3\@md {
-    margin-inline-start: 1rem;
+  .ml-md-3 {
+    margin-left: 1rem;
   }
-  .me-3\@md {
-    margin-inline-end: 1rem;
+  .mr-md-3 {
+    margin-right: 1rem;
   }
-  .mx-3\@md {
+  .mx-md-3 {
     margin-inline: 1rem;
   }
-  .my-3\@md {
+  .my-md-3 {
     margin-block: 1rem;
   }
-  .p-3\@md {
+  .p-md-3 {
     padding: 1rem;
   }
-  .pt-3\@md {
+  .pt-md-3 {
     padding-top: 1rem;
   }
-  .pb-3\@md {
+  .pb-md-3 {
     padding-bottom: 1rem;
   }
-  .ps-3\@md {
-    padding-inline-start: 1rem;
+  .pl-md-3 {
+    padding-left: 1rem;
   }
-  .pe-3\@md {
-    padding-inline-end: 1rem;
+  .pr-md-3 {
+    padding-right: 1rem;
   }
-  .px-3\@md {
+  .px-md-3 {
     padding-inline: 1rem;
   }
-  .py-3\@md {
+  .py-md-3 {
     padding-block: 1rem;
   }
 }
 @media screen and (min-width: 992px) {
-  .m-3\@lg {
+  .m-lg-3 {
     margin: 1rem;
   }
-  .mt-3\@lg {
+  .mt-lg-3 {
     margin-top: 1rem;
   }
-  .mb-3\@lg {
+  .mb-lg-3 {
     margin-bottom: 1rem;
   }
-  .ms-3\@lg {
-    margin-inline-start: 1rem;
+  .ml-lg-3 {
+    margin-left: 1rem;
   }
-  .me-3\@lg {
-    margin-inline-end: 1rem;
+  .mr-lg-3 {
+    margin-right: 1rem;
   }
-  .mx-3\@lg {
+  .mx-lg-3 {
     margin-inline: 1rem;
   }
-  .my-3\@lg {
+  .my-lg-3 {
     margin-block: 1rem;
   }
-  .p-3\@lg {
+  .p-lg-3 {
     padding: 1rem;
   }
-  .pt-3\@lg {
+  .pt-lg-3 {
     padding-top: 1rem;
   }
-  .pb-3\@lg {
+  .pb-lg-3 {
     padding-bottom: 1rem;
   }
-  .ps-3\@lg {
-    padding-inline-start: 1rem;
+  .pl-lg-3 {
+    padding-left: 1rem;
   }
-  .pe-3\@lg {
-    padding-inline-end: 1rem;
+  .pr-lg-3 {
+    padding-right: 1rem;
   }
-  .px-3\@lg {
+  .px-lg-3 {
     padding-inline: 1rem;
   }
-  .py-3\@lg {
+  .py-lg-3 {
     padding-block: 1rem;
   }
 }
 @media screen and (min-width: 1200px) {
-  .m-3\@xl {
+  .m-xl-3 {
     margin: 1rem;
   }
-  .mt-3\@xl {
+  .mt-xl-3 {
     margin-top: 1rem;
   }
-  .mb-3\@xl {
+  .mb-xl-3 {
     margin-bottom: 1rem;
   }
-  .ms-3\@xl {
-    margin-inline-start: 1rem;
+  .ml-xl-3 {
+    margin-left: 1rem;
   }
-  .me-3\@xl {
-    margin-inline-end: 1rem;
+  .mr-xl-3 {
+    margin-right: 1rem;
   }
-  .mx-3\@xl {
+  .mx-xl-3 {
     margin-inline: 1rem;
   }
-  .my-3\@xl {
+  .my-xl-3 {
     margin-block: 1rem;
   }
-  .p-3\@xl {
+  .p-xl-3 {
     padding: 1rem;
   }
-  .pt-3\@xl {
+  .pt-xl-3 {
     padding-top: 1rem;
   }
-  .pb-3\@xl {
+  .pb-xl-3 {
     padding-bottom: 1rem;
   }
-  .ps-3\@xl {
-    padding-inline-start: 1rem;
+  .pl-xl-3 {
+    padding-left: 1rem;
   }
-  .pe-3\@xl {
-    padding-inline-end: 1rem;
+  .pr-xl-3 {
+    padding-right: 1rem;
   }
-  .px-3\@xl {
+  .px-xl-3 {
     padding-inline: 1rem;
   }
-  .py-3\@xl {
+  .py-xl-3 {
     padding-block: 1rem;
   }
 }
@@ -1189,12 +1189,12 @@
   margin-bottom: 1.5rem;
 }
 
-.ms-4 {
-  margin-inline-start: 1.5rem;
+.ml-4 {
+  margin-left: 1.5rem;
 }
 
-.me-4 {
-  margin-inline-end: 1.5rem;
+.mr-4 {
+  margin-right: 1.5rem;
 }
 
 .mx-4 {
@@ -1217,12 +1217,12 @@
   padding-bottom: 1.5rem;
 }
 
-.ps-4 {
-  padding-inline-start: 1.5rem;
+.pl-4 {
+  padding-left: 1.5rem;
 }
 
-.pe-4 {
-  padding-inline-end: 1.5rem;
+.pr-4 {
+  padding-right: 1.5rem;
 }
 
 .px-4 {
@@ -1234,178 +1234,178 @@
 }
 
 @media screen and (min-width: 576px) {
-  .m-4\@sm {
+  .m-sm-4 {
     margin: 1.5rem;
   }
-  .mt-4\@sm {
+  .mt-sm-4 {
     margin-top: 1.5rem;
   }
-  .mb-4\@sm {
+  .mb-sm-4 {
     margin-bottom: 1.5rem;
   }
-  .ms-4\@sm {
-    margin-inline-start: 1.5rem;
+  .ml-sm-4 {
+    margin-left: 1.5rem;
   }
-  .me-4\@sm {
-    margin-inline-end: 1.5rem;
+  .mr-sm-4 {
+    margin-right: 1.5rem;
   }
-  .mx-4\@sm {
+  .mx-sm-4 {
     margin-inline: 1.5rem;
   }
-  .my-4\@sm {
+  .my-sm-4 {
     margin-block: 1.5rem;
   }
-  .p-4\@sm {
+  .p-sm-4 {
     padding: 1.5rem;
   }
-  .pt-4\@sm {
+  .pt-sm-4 {
     padding-top: 1.5rem;
   }
-  .pb-4\@sm {
+  .pb-sm-4 {
     padding-bottom: 1.5rem;
   }
-  .ps-4\@sm {
-    padding-inline-start: 1.5rem;
+  .pl-sm-4 {
+    padding-left: 1.5rem;
   }
-  .pe-4\@sm {
-    padding-inline-end: 1.5rem;
+  .pr-sm-4 {
+    padding-right: 1.5rem;
   }
-  .px-4\@sm {
+  .px-sm-4 {
     padding-inline: 1.5rem;
   }
-  .py-4\@sm {
+  .py-sm-4 {
     padding-block: 1.5rem;
   }
 }
 @media screen and (min-width: 768px) {
-  .m-4\@md {
+  .m-md-4 {
     margin: 1.5rem;
   }
-  .mt-4\@md {
+  .mt-md-4 {
     margin-top: 1.5rem;
   }
-  .mb-4\@md {
+  .mb-md-4 {
     margin-bottom: 1.5rem;
   }
-  .ms-4\@md {
-    margin-inline-start: 1.5rem;
+  .ml-md-4 {
+    margin-left: 1.5rem;
   }
-  .me-4\@md {
-    margin-inline-end: 1.5rem;
+  .mr-md-4 {
+    margin-right: 1.5rem;
   }
-  .mx-4\@md {
+  .mx-md-4 {
     margin-inline: 1.5rem;
   }
-  .my-4\@md {
+  .my-md-4 {
     margin-block: 1.5rem;
   }
-  .p-4\@md {
+  .p-md-4 {
     padding: 1.5rem;
   }
-  .pt-4\@md {
+  .pt-md-4 {
     padding-top: 1.5rem;
   }
-  .pb-4\@md {
+  .pb-md-4 {
     padding-bottom: 1.5rem;
   }
-  .ps-4\@md {
-    padding-inline-start: 1.5rem;
+  .pl-md-4 {
+    padding-left: 1.5rem;
   }
-  .pe-4\@md {
-    padding-inline-end: 1.5rem;
+  .pr-md-4 {
+    padding-right: 1.5rem;
   }
-  .px-4\@md {
+  .px-md-4 {
     padding-inline: 1.5rem;
   }
-  .py-4\@md {
+  .py-md-4 {
     padding-block: 1.5rem;
   }
 }
 @media screen and (min-width: 992px) {
-  .m-4\@lg {
+  .m-lg-4 {
     margin: 1.5rem;
   }
-  .mt-4\@lg {
+  .mt-lg-4 {
     margin-top: 1.5rem;
   }
-  .mb-4\@lg {
+  .mb-lg-4 {
     margin-bottom: 1.5rem;
   }
-  .ms-4\@lg {
-    margin-inline-start: 1.5rem;
+  .ml-lg-4 {
+    margin-left: 1.5rem;
   }
-  .me-4\@lg {
-    margin-inline-end: 1.5rem;
+  .mr-lg-4 {
+    margin-right: 1.5rem;
   }
-  .mx-4\@lg {
+  .mx-lg-4 {
     margin-inline: 1.5rem;
   }
-  .my-4\@lg {
+  .my-lg-4 {
     margin-block: 1.5rem;
   }
-  .p-4\@lg {
+  .p-lg-4 {
     padding: 1.5rem;
   }
-  .pt-4\@lg {
+  .pt-lg-4 {
     padding-top: 1.5rem;
   }
-  .pb-4\@lg {
+  .pb-lg-4 {
     padding-bottom: 1.5rem;
   }
-  .ps-4\@lg {
-    padding-inline-start: 1.5rem;
+  .pl-lg-4 {
+    padding-left: 1.5rem;
   }
-  .pe-4\@lg {
-    padding-inline-end: 1.5rem;
+  .pr-lg-4 {
+    padding-right: 1.5rem;
   }
-  .px-4\@lg {
+  .px-lg-4 {
     padding-inline: 1.5rem;
   }
-  .py-4\@lg {
+  .py-lg-4 {
     padding-block: 1.5rem;
   }
 }
 @media screen and (min-width: 1200px) {
-  .m-4\@xl {
+  .m-xl-4 {
     margin: 1.5rem;
   }
-  .mt-4\@xl {
+  .mt-xl-4 {
     margin-top: 1.5rem;
   }
-  .mb-4\@xl {
+  .mb-xl-4 {
     margin-bottom: 1.5rem;
   }
-  .ms-4\@xl {
-    margin-inline-start: 1.5rem;
+  .ml-xl-4 {
+    margin-left: 1.5rem;
   }
-  .me-4\@xl {
-    margin-inline-end: 1.5rem;
+  .mr-xl-4 {
+    margin-right: 1.5rem;
   }
-  .mx-4\@xl {
+  .mx-xl-4 {
     margin-inline: 1.5rem;
   }
-  .my-4\@xl {
+  .my-xl-4 {
     margin-block: 1.5rem;
   }
-  .p-4\@xl {
+  .p-xl-4 {
     padding: 1.5rem;
   }
-  .pt-4\@xl {
+  .pt-xl-4 {
     padding-top: 1.5rem;
   }
-  .pb-4\@xl {
+  .pb-xl-4 {
     padding-bottom: 1.5rem;
   }
-  .ps-4\@xl {
-    padding-inline-start: 1.5rem;
+  .pl-xl-4 {
+    padding-left: 1.5rem;
   }
-  .pe-4\@xl {
-    padding-inline-end: 1.5rem;
+  .pr-xl-4 {
+    padding-right: 1.5rem;
   }
-  .px-4\@xl {
+  .px-xl-4 {
     padding-inline: 1.5rem;
   }
-  .py-4\@xl {
+  .py-xl-4 {
     padding-block: 1.5rem;
   }
 }
@@ -1421,12 +1421,12 @@
   margin-bottom: 3rem;
 }
 
-.ms-5 {
-  margin-inline-start: 3rem;
+.ml-5 {
+  margin-left: 3rem;
 }
 
-.me-5 {
-  margin-inline-end: 3rem;
+.mr-5 {
+  margin-right: 3rem;
 }
 
 .mx-5 {
@@ -1449,12 +1449,12 @@
   padding-bottom: 3rem;
 }
 
-.ps-5 {
-  padding-inline-start: 3rem;
+.pl-5 {
+  padding-left: 3rem;
 }
 
-.pe-5 {
-  padding-inline-end: 3rem;
+.pr-5 {
+  padding-right: 3rem;
 }
 
 .px-5 {
@@ -1466,178 +1466,178 @@
 }
 
 @media screen and (min-width: 576px) {
-  .m-5\@sm {
+  .m-sm-5 {
     margin: 3rem;
   }
-  .mt-5\@sm {
+  .mt-sm-5 {
     margin-top: 3rem;
   }
-  .mb-5\@sm {
+  .mb-sm-5 {
     margin-bottom: 3rem;
   }
-  .ms-5\@sm {
-    margin-inline-start: 3rem;
+  .ml-sm-5 {
+    margin-left: 3rem;
   }
-  .me-5\@sm {
-    margin-inline-end: 3rem;
+  .mr-sm-5 {
+    margin-right: 3rem;
   }
-  .mx-5\@sm {
+  .mx-sm-5 {
     margin-inline: 3rem;
   }
-  .my-5\@sm {
+  .my-sm-5 {
     margin-block: 3rem;
   }
-  .p-5\@sm {
+  .p-sm-5 {
     padding: 3rem;
   }
-  .pt-5\@sm {
+  .pt-sm-5 {
     padding-top: 3rem;
   }
-  .pb-5\@sm {
+  .pb-sm-5 {
     padding-bottom: 3rem;
   }
-  .ps-5\@sm {
-    padding-inline-start: 3rem;
+  .pl-sm-5 {
+    padding-left: 3rem;
   }
-  .pe-5\@sm {
-    padding-inline-end: 3rem;
+  .pr-sm-5 {
+    padding-right: 3rem;
   }
-  .px-5\@sm {
+  .px-sm-5 {
     padding-inline: 3rem;
   }
-  .py-5\@sm {
+  .py-sm-5 {
     padding-block: 3rem;
   }
 }
 @media screen and (min-width: 768px) {
-  .m-5\@md {
+  .m-md-5 {
     margin: 3rem;
   }
-  .mt-5\@md {
+  .mt-md-5 {
     margin-top: 3rem;
   }
-  .mb-5\@md {
+  .mb-md-5 {
     margin-bottom: 3rem;
   }
-  .ms-5\@md {
-    margin-inline-start: 3rem;
+  .ml-md-5 {
+    margin-left: 3rem;
   }
-  .me-5\@md {
-    margin-inline-end: 3rem;
+  .mr-md-5 {
+    margin-right: 3rem;
   }
-  .mx-5\@md {
+  .mx-md-5 {
     margin-inline: 3rem;
   }
-  .my-5\@md {
+  .my-md-5 {
     margin-block: 3rem;
   }
-  .p-5\@md {
+  .p-md-5 {
     padding: 3rem;
   }
-  .pt-5\@md {
+  .pt-md-5 {
     padding-top: 3rem;
   }
-  .pb-5\@md {
+  .pb-md-5 {
     padding-bottom: 3rem;
   }
-  .ps-5\@md {
-    padding-inline-start: 3rem;
+  .pl-md-5 {
+    padding-left: 3rem;
   }
-  .pe-5\@md {
-    padding-inline-end: 3rem;
+  .pr-md-5 {
+    padding-right: 3rem;
   }
-  .px-5\@md {
+  .px-md-5 {
     padding-inline: 3rem;
   }
-  .py-5\@md {
+  .py-md-5 {
     padding-block: 3rem;
   }
 }
 @media screen and (min-width: 992px) {
-  .m-5\@lg {
+  .m-lg-5 {
     margin: 3rem;
   }
-  .mt-5\@lg {
+  .mt-lg-5 {
     margin-top: 3rem;
   }
-  .mb-5\@lg {
+  .mb-lg-5 {
     margin-bottom: 3rem;
   }
-  .ms-5\@lg {
-    margin-inline-start: 3rem;
+  .ml-lg-5 {
+    margin-left: 3rem;
   }
-  .me-5\@lg {
-    margin-inline-end: 3rem;
+  .mr-lg-5 {
+    margin-right: 3rem;
   }
-  .mx-5\@lg {
+  .mx-lg-5 {
     margin-inline: 3rem;
   }
-  .my-5\@lg {
+  .my-lg-5 {
     margin-block: 3rem;
   }
-  .p-5\@lg {
+  .p-lg-5 {
     padding: 3rem;
   }
-  .pt-5\@lg {
+  .pt-lg-5 {
     padding-top: 3rem;
   }
-  .pb-5\@lg {
+  .pb-lg-5 {
     padding-bottom: 3rem;
   }
-  .ps-5\@lg {
-    padding-inline-start: 3rem;
+  .pl-lg-5 {
+    padding-left: 3rem;
   }
-  .pe-5\@lg {
-    padding-inline-end: 3rem;
+  .pr-lg-5 {
+    padding-right: 3rem;
   }
-  .px-5\@lg {
+  .px-lg-5 {
     padding-inline: 3rem;
   }
-  .py-5\@lg {
+  .py-lg-5 {
     padding-block: 3rem;
   }
 }
 @media screen and (min-width: 1200px) {
-  .m-5\@xl {
+  .m-xl-5 {
     margin: 3rem;
   }
-  .mt-5\@xl {
+  .mt-xl-5 {
     margin-top: 3rem;
   }
-  .mb-5\@xl {
+  .mb-xl-5 {
     margin-bottom: 3rem;
   }
-  .ms-5\@xl {
-    margin-inline-start: 3rem;
+  .ml-xl-5 {
+    margin-left: 3rem;
   }
-  .me-5\@xl {
-    margin-inline-end: 3rem;
+  .mr-xl-5 {
+    margin-right: 3rem;
   }
-  .mx-5\@xl {
+  .mx-xl-5 {
     margin-inline: 3rem;
   }
-  .my-5\@xl {
+  .my-xl-5 {
     margin-block: 3rem;
   }
-  .p-5\@xl {
+  .p-xl-5 {
     padding: 3rem;
   }
-  .pt-5\@xl {
+  .pt-xl-5 {
     padding-top: 3rem;
   }
-  .pb-5\@xl {
+  .pb-xl-5 {
     padding-bottom: 3rem;
   }
-  .ps-5\@xl {
-    padding-inline-start: 3rem;
+  .pl-xl-5 {
+    padding-left: 3rem;
   }
-  .pe-5\@xl {
-    padding-inline-end: 3rem;
+  .pr-xl-5 {
+    padding-right: 3rem;
   }
-  .px-5\@xl {
+  .px-xl-5 {
     padding-inline: 3rem;
   }
-  .py-5\@xl {
+  .py-xl-5 {
     padding-block: 3rem;
   }
 }
@@ -1646,22 +1646,22 @@
 }
 
 @media screen and (min-width: 576px) {
-  .d-block\@sm {
+  .d-sm-block {
     display: block;
   }
 }
 @media screen and (min-width: 768px) {
-  .d-block\@md {
+  .d-md-block {
     display: block;
   }
 }
 @media screen and (min-width: 992px) {
-  .d-block\@lg {
+  .d-lg-block {
     display: block;
   }
 }
 @media screen and (min-width: 1200px) {
-  .d-block\@xl {
+  .d-xl-block {
     display: block;
   }
 }
@@ -1670,22 +1670,22 @@
 }
 
 @media screen and (min-width: 576px) {
-  .d-inline\@sm {
+  .d-sm-inline {
     display: inline;
   }
 }
 @media screen and (min-width: 768px) {
-  .d-inline\@md {
+  .d-md-inline {
     display: inline;
   }
 }
 @media screen and (min-width: 992px) {
-  .d-inline\@lg {
+  .d-lg-inline {
     display: inline;
   }
 }
 @media screen and (min-width: 1200px) {
-  .d-inline\@xl {
+  .d-xl-inline {
     display: inline;
   }
 }
@@ -1694,22 +1694,22 @@
 }
 
 @media screen and (min-width: 576px) {
-  .d-inline-block\@sm {
+  .d-sm-inline-block {
     display: inline-block;
   }
 }
 @media screen and (min-width: 768px) {
-  .d-inline-block\@md {
+  .d-md-inline-block {
     display: inline-block;
   }
 }
 @media screen and (min-width: 992px) {
-  .d-inline-block\@lg {
+  .d-lg-inline-block {
     display: inline-block;
   }
 }
 @media screen and (min-width: 1200px) {
-  .d-inline-block\@xl {
+  .d-xl-inline-block {
     display: inline-block;
   }
 }
@@ -1718,23 +1718,47 @@
 }
 
 @media screen and (min-width: 576px) {
-  .d-flex\@sm {
+  .d-sm-flex {
     display: flex;
   }
 }
 @media screen and (min-width: 768px) {
-  .d-flex\@md {
+  .d-md-flex {
     display: flex;
   }
 }
 @media screen and (min-width: 992px) {
-  .d-flex\@lg {
+  .d-lg-flex {
     display: flex;
   }
 }
 @media screen and (min-width: 1200px) {
-  .d-flex\@xl {
+  .d-xl-flex {
     display: flex;
+  }
+}
+.d-inline-flex {
+  display: inline-flex;
+}
+
+@media screen and (min-width: 576px) {
+  .d-sm-inline-flex {
+    display: inline-flex;
+  }
+}
+@media screen and (min-width: 768px) {
+  .d-md-inline-flex {
+    display: inline-flex;
+  }
+}
+@media screen and (min-width: 992px) {
+  .d-lg-inline-flex {
+    display: inline-flex;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .d-xl-inline-flex {
+    display: inline-flex;
   }
 }
 .d-grid {
@@ -1742,22 +1766,22 @@
 }
 
 @media screen and (min-width: 576px) {
-  .d-grid\@sm {
+  .d-sm-grid {
     display: grid;
   }
 }
 @media screen and (min-width: 768px) {
-  .d-grid\@md {
+  .d-md-grid {
     display: grid;
   }
 }
 @media screen and (min-width: 992px) {
-  .d-grid\@lg {
+  .d-lg-grid {
     display: grid;
   }
 }
 @media screen and (min-width: 1200px) {
-  .d-grid\@xl {
+  .d-xl-grid {
     display: grid;
   }
 }
@@ -1766,22 +1790,22 @@
 }
 
 @media screen and (min-width: 576px) {
-  .d-none\@sm {
+  .d-sm-none {
     display: none;
   }
 }
 @media screen and (min-width: 768px) {
-  .d-none\@md {
+  .d-md-none {
     display: none;
   }
 }
 @media screen and (min-width: 992px) {
-  .d-none\@lg {
+  .d-lg-none {
     display: none;
   }
 }
 @media screen and (min-width: 1200px) {
-  .d-none\@xl {
+  .d-xl-none {
     display: none;
   }
 }
@@ -1790,22 +1814,22 @@
 }
 
 @media screen and (min-width: 576px) {
-  .flex-row\@sm {
+  .flex-row-sm {
     flex-direction: row;
   }
 }
 @media screen and (min-width: 768px) {
-  .flex-row\@md {
+  .flex-row-md {
     flex-direction: row;
   }
 }
 @media screen and (min-width: 992px) {
-  .flex-row\@lg {
+  .flex-row-lg {
     flex-direction: row;
   }
 }
 @media screen and (min-width: 1200px) {
-  .flex-row\@xl {
+  .flex-row-xl {
     flex-direction: row;
   }
 }
@@ -1814,22 +1838,22 @@
 }
 
 @media screen and (min-width: 576px) {
-  .flex-column\@sm {
+  .flex-column-sm {
     flex-direction: column;
   }
 }
 @media screen and (min-width: 768px) {
-  .flex-column\@md {
+  .flex-column-md {
     flex-direction: column;
   }
 }
 @media screen and (min-width: 992px) {
-  .flex-column\@lg {
+  .flex-column-lg {
     flex-direction: column;
   }
 }
 @media screen and (min-width: 1200px) {
-  .flex-column\@xl {
+  .flex-column-xl {
     flex-direction: column;
   }
 }
@@ -1838,22 +1862,22 @@
 }
 
 @media screen and (min-width: 576px) {
-  .flex-row-reverse\@sm {
+  .flex-row-reverse-sm {
     flex-direction: row-reverse;
   }
 }
 @media screen and (min-width: 768px) {
-  .flex-row-reverse\@md {
+  .flex-row-reverse-md {
     flex-direction: row-reverse;
   }
 }
 @media screen and (min-width: 992px) {
-  .flex-row-reverse\@lg {
+  .flex-row-reverse-lg {
     flex-direction: row-reverse;
   }
 }
 @media screen and (min-width: 1200px) {
-  .flex-row-reverse\@xl {
+  .flex-row-reverse-xl {
     flex-direction: row-reverse;
   }
 }
@@ -1862,22 +1886,22 @@
 }
 
 @media screen and (min-width: 576px) {
-  .flex-column-reverse\@sm {
+  .flex-column-reverse-sm {
     flex-direction: column-reverse;
   }
 }
 @media screen and (min-width: 768px) {
-  .flex-column-reverse\@md {
+  .flex-column-reverse-md {
     flex-direction: column-reverse;
   }
 }
 @media screen and (min-width: 992px) {
-  .flex-column-reverse\@lg {
+  .flex-column-reverse-lg {
     flex-direction: column-reverse;
   }
 }
 @media screen and (min-width: 1200px) {
-  .flex-column-reverse\@xl {
+  .flex-column-reverse-xl {
     flex-direction: column-reverse;
   }
 }
@@ -1886,22 +1910,22 @@
 }
 
 @media screen and (min-width: 576px) {
-  .justify-start\@sm {
+  .justify-start-sm {
     justify-content: flex-start;
   }
 }
 @media screen and (min-width: 768px) {
-  .justify-start\@md {
+  .justify-start-md {
     justify-content: flex-start;
   }
 }
 @media screen and (min-width: 992px) {
-  .justify-start\@lg {
+  .justify-start-lg {
     justify-content: flex-start;
   }
 }
 @media screen and (min-width: 1200px) {
-  .justify-start\@xl {
+  .justify-start-xl {
     justify-content: flex-start;
   }
 }
@@ -1910,22 +1934,22 @@
 }
 
 @media screen and (min-width: 576px) {
-  .justify-center\@sm {
+  .justify-center-sm {
     justify-content: center;
   }
 }
 @media screen and (min-width: 768px) {
-  .justify-center\@md {
+  .justify-center-md {
     justify-content: center;
   }
 }
 @media screen and (min-width: 992px) {
-  .justify-center\@lg {
+  .justify-center-lg {
     justify-content: center;
   }
 }
 @media screen and (min-width: 1200px) {
-  .justify-center\@xl {
+  .justify-center-xl {
     justify-content: center;
   }
 }
@@ -1934,22 +1958,22 @@
 }
 
 @media screen and (min-width: 576px) {
-  .justify-end\@sm {
+  .justify-end-sm {
     justify-content: flex-end;
   }
 }
 @media screen and (min-width: 768px) {
-  .justify-end\@md {
+  .justify-end-md {
     justify-content: flex-end;
   }
 }
 @media screen and (min-width: 992px) {
-  .justify-end\@lg {
+  .justify-end-lg {
     justify-content: flex-end;
   }
 }
 @media screen and (min-width: 1200px) {
-  .justify-end\@xl {
+  .justify-end-xl {
     justify-content: flex-end;
   }
 }
@@ -1958,22 +1982,22 @@
 }
 
 @media screen and (min-width: 576px) {
-  .justify-between\@sm {
+  .justify-between-sm {
     justify-content: space-between;
   }
 }
 @media screen and (min-width: 768px) {
-  .justify-between\@md {
+  .justify-between-md {
     justify-content: space-between;
   }
 }
 @media screen and (min-width: 992px) {
-  .justify-between\@lg {
+  .justify-between-lg {
     justify-content: space-between;
   }
 }
 @media screen and (min-width: 1200px) {
-  .justify-between\@xl {
+  .justify-between-xl {
     justify-content: space-between;
   }
 }
@@ -1982,22 +2006,22 @@
 }
 
 @media screen and (min-width: 576px) {
-  .justify-around\@sm {
+  .justify-around-sm {
     justify-content: space-around;
   }
 }
 @media screen and (min-width: 768px) {
-  .justify-around\@md {
+  .justify-around-md {
     justify-content: space-around;
   }
 }
 @media screen and (min-width: 992px) {
-  .justify-around\@lg {
+  .justify-around-lg {
     justify-content: space-around;
   }
 }
 @media screen and (min-width: 1200px) {
-  .justify-around\@xl {
+  .justify-around-xl {
     justify-content: space-around;
   }
 }
@@ -2006,22 +2030,22 @@
 }
 
 @media screen and (min-width: 576px) {
-  .align-start\@sm {
+  .align-start-sm {
     align-items: flex-start;
   }
 }
 @media screen and (min-width: 768px) {
-  .align-start\@md {
+  .align-start-md {
     align-items: flex-start;
   }
 }
 @media screen and (min-width: 992px) {
-  .align-start\@lg {
+  .align-start-lg {
     align-items: flex-start;
   }
 }
 @media screen and (min-width: 1200px) {
-  .align-start\@xl {
+  .align-start-xl {
     align-items: flex-start;
   }
 }
@@ -2030,22 +2054,22 @@
 }
 
 @media screen and (min-width: 576px) {
-  .align-center\@sm {
+  .align-center-sm {
     align-items: center;
   }
 }
 @media screen and (min-width: 768px) {
-  .align-center\@md {
+  .align-center-md {
     align-items: center;
   }
 }
 @media screen and (min-width: 992px) {
-  .align-center\@lg {
+  .align-center-lg {
     align-items: center;
   }
 }
 @media screen and (min-width: 1200px) {
-  .align-center\@xl {
+  .align-center-xl {
     align-items: center;
   }
 }
@@ -2054,22 +2078,22 @@
 }
 
 @media screen and (min-width: 576px) {
-  .align-end\@sm {
+  .align-end-sm {
     align-items: flex-end;
   }
 }
 @media screen and (min-width: 768px) {
-  .align-end\@md {
+  .align-end-md {
     align-items: flex-end;
   }
 }
 @media screen and (min-width: 992px) {
-  .align-end\@lg {
+  .align-end-lg {
     align-items: flex-end;
   }
 }
 @media screen and (min-width: 1200px) {
-  .align-end\@xl {
+  .align-end-xl {
     align-items: flex-end;
   }
 }
@@ -2078,22 +2102,22 @@
 }
 
 @media screen and (min-width: 576px) {
-  .align-stretch\@sm {
+  .align-stretch-sm {
     align-items: stretch;
   }
 }
 @media screen and (min-width: 768px) {
-  .align-stretch\@md {
+  .align-stretch-md {
     align-items: stretch;
   }
 }
 @media screen and (min-width: 992px) {
-  .align-stretch\@lg {
+  .align-stretch-lg {
     align-items: stretch;
   }
 }
 @media screen and (min-width: 1200px) {
-  .align-stretch\@xl {
+  .align-stretch-xl {
     align-items: stretch;
   }
 }
@@ -2102,22 +2126,22 @@
 }
 
 @media screen and (min-width: 576px) {
-  .flex-wrap\@sm {
+  .flex-wrap-sm {
     flex-wrap: wrap;
   }
 }
 @media screen and (min-width: 768px) {
-  .flex-wrap\@md {
+  .flex-wrap-md {
     flex-wrap: wrap;
   }
 }
 @media screen and (min-width: 992px) {
-  .flex-wrap\@lg {
+  .flex-wrap-lg {
     flex-wrap: wrap;
   }
 }
 @media screen and (min-width: 1200px) {
-  .flex-wrap\@xl {
+  .flex-wrap-xl {
     flex-wrap: wrap;
   }
 }
@@ -2126,22 +2150,22 @@
 }
 
 @media screen and (min-width: 576px) {
-  .flex-nowrap \@sm {
+  .flex-nowrap-sm {
     flex-wrap: nowrap;
   }
 }
 @media screen and (min-width: 768px) {
-  .flex-nowrap \@md {
+  .flex-nowrap-md {
     flex-wrap: nowrap;
   }
 }
 @media screen and (min-width: 992px) {
-  .flex-nowrap \@lg {
+  .flex-nowrap-lg {
     flex-wrap: nowrap;
   }
 }
 @media screen and (min-width: 1200px) {
-  .flex-nowrap \@xl {
+  .flex-nowrap-xl {
     flex-wrap: nowrap;
   }
 }
@@ -2169,6 +2193,86 @@
   text-transform: capitalize;
 }
 
+@media screen and (min-width: 576px) {
+  .text-start-sm {
+    text-align: start;
+  }
+  .text-center-sm {
+    text-align: center;
+  }
+  .text-end-sm {
+    text-align: end;
+  }
+  .text-uppercase-sm {
+    text-transform: uppercase;
+  }
+  .text-lowercase-sm {
+    text-transform: lowercase;
+  }
+  .text-capitalize-sm {
+    text-transform: capitalize;
+  }
+}
+@media screen and (min-width: 768px) {
+  .text-start-md {
+    text-align: start;
+  }
+  .text-center-md {
+    text-align: center;
+  }
+  .text-end-md {
+    text-align: end;
+  }
+  .text-uppercase-md {
+    text-transform: uppercase;
+  }
+  .text-lowercase-md {
+    text-transform: lowercase;
+  }
+  .text-capitalize-md {
+    text-transform: capitalize;
+  }
+}
+@media screen and (min-width: 992px) {
+  .text-start-lg {
+    text-align: start;
+  }
+  .text-center-lg {
+    text-align: center;
+  }
+  .text-end-lg {
+    text-align: end;
+  }
+  .text-uppercase-lg {
+    text-transform: uppercase;
+  }
+  .text-lowercase-lg {
+    text-transform: lowercase;
+  }
+  .text-capitalize-lg {
+    text-transform: capitalize;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .text-start-xl {
+    text-align: start;
+  }
+  .text-center-xl {
+    text-align: center;
+  }
+  .text-end-xl {
+    text-align: end;
+  }
+  .text-uppercase-xl {
+    text-transform: uppercase;
+  }
+  .text-lowercase-xl {
+    text-transform: lowercase;
+  }
+  .text-capitalize-xl {
+    text-transform: capitalize;
+  }
+}
 .w-100 {
   width: 100%;
 }
@@ -2199,6 +2303,111 @@
 
 .rounded-circle {
   border-radius: 50%;
+}
+
+@media screen and (min-width: 576px) {
+  .w-100-sm {
+    width: 100%;
+  }
+  .h-100-sm {
+    height: 100%;
+  }
+  .overflow-hidden-sm {
+    overflow: hidden;
+  }
+  .overflow-auto-sm {
+    overflow: auto;
+  }
+  .position-relative-sm {
+    position: relative;
+  }
+  .position-absolute-sm {
+    position: absolute;
+  }
+  .rounded-sm {
+    border-radius: 0.25rem;
+  }
+  .rounded-circle-sm {
+    border-radius: 50%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .w-100-md {
+    width: 100%;
+  }
+  .h-100-md {
+    height: 100%;
+  }
+  .overflow-hidden-md {
+    overflow: hidden;
+  }
+  .overflow-auto-md {
+    overflow: auto;
+  }
+  .position-relative-md {
+    position: relative;
+  }
+  .position-absolute-md {
+    position: absolute;
+  }
+  .rounded-md {
+    border-radius: 0.25rem;
+  }
+  .rounded-circle-md {
+    border-radius: 50%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .w-100-lg {
+    width: 100%;
+  }
+  .h-100-lg {
+    height: 100%;
+  }
+  .overflow-hidden-lg {
+    overflow: hidden;
+  }
+  .overflow-auto-lg {
+    overflow: auto;
+  }
+  .position-relative-lg {
+    position: relative;
+  }
+  .position-absolute-lg {
+    position: absolute;
+  }
+  .rounded-lg {
+    border-radius: 0.25rem;
+  }
+  .rounded-circle-lg {
+    border-radius: 50%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .w-100-xl {
+    width: 100%;
+  }
+  .h-100-xl {
+    height: 100%;
+  }
+  .overflow-hidden-xl {
+    overflow: hidden;
+  }
+  .overflow-auto-xl {
+    overflow: auto;
+  }
+  .position-relative-xl {
+    position: relative;
+  }
+  .position-absolute-xl {
+    position: absolute;
+  }
+  .rounded-xl {
+    border-radius: 0.25rem;
+  }
+  .rounded-circle-xl {
+    border-radius: 50%;
+  }
 }
 
 /*# sourceMappingURL=lightgrid.css.map */

@@ -1,9 +1,10 @@
-import { defineConfig } from "vite";
+import {defineConfig} from "vite";
+import {resolve} from "path";
 
 export default defineConfig({
     root: "demo",
     css: {
-        postcss: "../postcss.config.js",
+        postcss: resolve(__dirname, "../postcss.config.ts"),
     },
     build: {
         outDir: "../dist",
