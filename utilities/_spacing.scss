@@ -18,6 +18,10 @@
   .px-#{$size}  { padding-inline: $value; }
   .py-#{$size}  { padding-block: $value; }
 
+  .g-#{$size}  { gap: $value; }
+  .gc-#{$size}  { column-gap: $value; }
+  .gr-#{$size}  { row-gap: $value; }
+
   @each $bp, $width in cn.$breakpoints {
     @if $bp != xs {
       @include br.breakpoint($width) {
@@ -36,6 +40,10 @@
         .pr-#{$bp}-#{$size}  { padding-right: $value; }
         .px-#{$bp}-#{$size}  { padding-inline: $value; }
         .py-#{$bp}-#{$size}  { padding-block: $value; }
+
+        .g-#{$bp}-#{$size}  { gap: $value; }
+        .gc-#{$bp}-#{$size}  { column-gap: $value; }
+        .gr-#{$bp}-#{$size}  { row-gap: $value; }
       }
     }
   }

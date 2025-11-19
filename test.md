@@ -38,7 +38,7 @@ Or add via CDN (compiled CSS):
 Import the main Sass entry file into your project:
 
 ```scss
-@use "light-grid/dist/_index.scss";
+@use "light-grid";
 ```
 
 Or include the compiled CSS directly:
@@ -83,6 +83,7 @@ Responsive classes follow this pattern:
 - `md` → 768px
 - `lg` → 992px
 - `xl` → 1200px
+- `xxl` → 1400px
 
 
 Responsive classes are available not only for columns, but also for any utility class (display, flex, text, spacing, etc.).
@@ -118,12 +119,15 @@ Responsive classes are available not only for columns, but also for any utility 
 | `.text-uppercase` | `text-transform: uppercase;` |
 
 ### 📏 Spacing
-| Class | CSS |
-|-------|-----|
-| `.m-1` | `margin: 4px;` |
-| `.p-3` | `padding: 16px;` |
-| `.mt-2` | `margin-top: 8px;` |
+| Class   | CSS                     |
+|---------|-------------------------|
+| `.m-1`  | `margin: 4px;`          |
+| `.p-3`  | `padding: 16px;`        |
+| `.mt-2` | `margin-top: 8px;`      |
 | `.px-4` | `padding-inline: 24px;` |
+| `.g-2`  | `gap: 8px;`             |
+| `.gc-1` | `gap-column: 4px;`      |
+| `.gr-4` | `gap-row: 24px;`        |
 
 ### 💨 Overflow
 | Class | CSS |
@@ -175,7 +179,7 @@ $spacers: (
 
 You can override any variable before importing LightGrid:
 ```scss
-@use "light-grid/core/variables" with (
+@use "light-grid/core/config" with (
   $grid_columns_count: 16,
   $grid_gap: 24px,
   $breakpoints: (
