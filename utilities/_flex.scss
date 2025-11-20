@@ -1,16 +1,18 @@
 @use "../core/config" as cn;
 @use "../core/mixins" as br;
 
-@each $name, $rules in cn.$flex_utilities {
+@each $name, $rules in cn.$flex-utilities {
   .#{$name} {
     @each $prop, $val in $rules {
       #{$prop}: $val;
     }
   }
+}
 
-  @each $bp, $width in cn.$breakpoints {
-    @if $bp != xs {
-      @include br.breakpoint($width) {
+@each $bp, $width in cn.$breakpoints {
+  @if $bp != xs {
+    @include br.breakpoint($width) {
+      @each $name, $rules in cn.$flex_utilities {
         .#{$name}-#{$bp} {
           @each $prop, $val in $rules {
             #{$prop}: $val;
@@ -20,3 +22,4 @@
     }
   }
 }
+

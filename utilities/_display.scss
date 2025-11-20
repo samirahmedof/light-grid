@@ -4,12 +4,18 @@
 
 
 @each $d in cn.$display_options {
-  .d-#{$d} { display: $d; }
+  .d-#{$d} {
+    display: $d;
+  }
+}
 
-  @each $bp, $width in cn.$breakpoints {
-    @if $bp != xs {
-      @include br.breakpoint($width) {
-        .d-#{$bp}-#{$d} { display: $d; }
+@each $bp, $width in cn.$breakpoints {
+  @if $bp != xs {
+    @include br.breakpoint($width) {
+      @each $d in cn.$display_options {
+        .d-#{$bp}-#{$d} {
+          display: $d;
+        }
       }
     }
   }
