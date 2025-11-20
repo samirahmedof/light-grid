@@ -139,7 +139,7 @@ Responsive classes are available not only for columns, but also for any utility 
 ## ⚙️ Configuration (Sass Variables)
 
 You can customize **every core part of the system** — including grid behavior, breakpoints, container widths, gaps, and spacing.
-All configurable variables are defined in `core/_variables.scss`.
+All configurable variables are defined in `core/_config.scss`.
 
 ```scss
 // 🧱 Grid system
@@ -152,6 +152,7 @@ $breakpoints: (
         md: 768px,
         lg: 992px,
         xl: 1200px,
+        xxl: 1400px
 ) !default;
 
 // 📦 Container max-widths
@@ -160,6 +161,7 @@ $container_max_widths: (
         md: 720px,
         lg: 960px,
         xl: 1140px,
+        xxl: 1320px
 ) !default;
 
 // 📏 Spacing scale
