@@ -1,6 +1,6 @@
 {
   "name": "light-grid",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "A lightweight, responsive, Sass-based CSS grid and utility system inspired by Bootstrap but optimized for speed and flexibility.",
   "main": "dist/lightgrid.css",
   "style": "dist/lightgrid.css",
